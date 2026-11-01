@@ -1,0 +1,15 @@
+{
+  "name": "doc-polisher",
+  "version": "1.0.0",
+  "description": "Upload a .txt or .docx, get a cleanly formatted and edited .docx back",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "docx": "^8.5.0",
+    "express": "^4.19.2",
+    "mammoth": "^1.8.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
